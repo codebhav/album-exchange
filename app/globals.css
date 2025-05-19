@@ -66,6 +66,7 @@ body {
 html {
 	font-size: 16px;
 	scroll-behavior: smooth;
+	scrollbar-gutter: stable;
 }
 
 body {
@@ -75,6 +76,23 @@ body {
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+p a,
+li a,
+.faq-answer a,
+.header a {
+	color: var(--color-terracotta);
+	text-decoration: underline;
+	transition: color var(--transition-fast);
+}
+
+p a:hover,
+li a:hover,
+.faq-answer a:hover,
+.header a:hover {
+	color: var(--color-rust);
+	text-decoration: underline;
 }
 
 img {
@@ -106,7 +124,7 @@ select {
 	width: 100%;
 	min-height: 100vh;
 	max-width: var(--container-max-width);
-	margin: 0 auto;
+	margin: 0px auto;
 	padding: var(--space-4) var(--container-padding-mobile);
 	overflow-x: hidden;
 }
@@ -181,8 +199,12 @@ select {
 	display: none;
 }
 
+.faq-answer a {
+	font-weight: 500;
+}
+
 .nav-link {
-	margin: 0 var(--space-2);
+	margin: 10px var(--space-2);
 	padding: var(--space-2) var(--space-4);
 	color: var(--color-brown);
 	text-decoration: none;
