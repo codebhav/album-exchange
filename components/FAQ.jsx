@@ -49,8 +49,8 @@ export function FAQ() {
 					question="what is album exchange?"
 					answer={
 						<p>
-							it's simple way to share and discover music. Each
-							week, I feature an album I'm loving as my "weekly
+							it's simple way to share and discover music. each
+							week, i feature an album i'm loving as my "weekly
 							pick," and you can share your favorites too. it
 							started as a weekly tradition with a friend and
 							evolved into this little project.
@@ -68,7 +68,7 @@ export function FAQ() {
 								<li>submit an album you love using the form</li>
 								<li>
 									your submission becomes a playlist on my
-									Spotify and appears in the gallery
+									spotify and appears in the gallery
 								</li>
 								<li>
 									browse the <a href="/albums">gallery</a> to
@@ -80,7 +80,7 @@ export function FAQ() {
 								</li>
 							</ol>
 							<p>
-								you can submit once weekly (resets every Monday
+								you can submit once weekly (resets every monday
 								at midnight UTC).
 							</p>
 						</>
@@ -93,7 +93,7 @@ export function FAQ() {
 					answer={
 						<>
 							<ul>
-								<li>only submit albums available on Spotify</li>
+								<li>only submit albums available on spotify</li>
 								<li>
 									your nickname should be 2-30 characters
 									(used to create playlists like
@@ -115,7 +115,7 @@ export function FAQ() {
 					question="privacy & data"
 					answer={
 						<>
-							<p>here's what I store:</p>
+							<p>here's what i store:</p>
 							<ul>
 								<li>
 									a hashed version of your browser fingerprint
@@ -168,7 +168,7 @@ export function FAQ() {
 								href="https://github.com/codebhav/album-exchange"
 								target="_blank"
 							>
-								gitHub
+								github
 							</a>{" "}
 							if you want to see how it works or build something
 							similar.
