@@ -37,8 +37,7 @@ export default function Home() {
 	const [remainingTime, setRemainingTime] = useState("");
 	const [nowPlaying, setNowPlaying] = useState(null);
 	const [weeklyPick] = useState({
-		spotifyUrl:
-			"https://open.spotify.com/album/1hmlhl74JfLyUqmqtCwvFb?si=6SkYRwhqQpmoMkOhkKsyyg",
+		spotifyUrl: "https://open.spotify.com/album/1pflleeGIJGEAillSnSetf",
 	});
 
 	useEffect(() => {
@@ -295,12 +294,12 @@ export default function Home() {
 							/>
 						)}
 						<div id="profile-tooltip" className="sr-only">
-							if i like your recommendations, i&apos;d like to follow
-							your account :)
+							if i like your recommendations, i&apos;d like to
+							follow your account :)
 						</div>
 
 						<CozyInput
-							label="Album Link"
+							label="album link"
 							placeholder="https://open.spotify.com/album/..."
 							value={albumUrl}
 							onChange={(e) => setAlbumUrl(e.target.value)}
