@@ -37,7 +37,7 @@ export default function Home() {
 	const [remainingTime, setRemainingTime] = useState("");
 	const [nowPlaying, setNowPlaying] = useState(null);
 	const [weeklyPick] = useState({
-		spotifyUrl: "https://open.spotify.com/album/1pflleeGIJGEAillSnSetf",
+		spotifyUrl: "https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa",
 	});
 
 	useEffect(() => {
